@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="git.sticom">
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.GET_TASKS" />
+
+    <application
+        android:name=".app.AppController"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".SplashActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Order_Activity"
+            android:label="Sticom Online"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Cek_Activity"
+            android:label="Cek Data"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".DetailProduk"
+            android:label="Sticom Online"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".IndexActivity"
+            android:label="Sticom Online"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Keranjang"
+            android:label="Keranjang Belanja"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".detailItemUpdate"
+            android:label="Sticom Online"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".PelangganTrans"
+            android:label="Form Pelanggan"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Tracking"
+            android:label="Detail Proses"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".RegisterActivity"
+            android:label="Registrasi"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Login"
+            android:label="Sticom"
+            android:screenOrientation="portrait" />
+        <activity android:name=".PromoActivity" />
+        <activity android:name=".DetailPromo" />
+        <!-- Firebase Notifications -->
+        <service android:name=".service.MyFirebaseMessagingService">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+        <service android:name=".service.MyFirebaseInstanceIDService">
+            <intent-filter>
+                <action android:name="com.google.firebase.INSTANCE_ID_EVENT" />
+            </intent-filter>
+        </service>
+        <!-- ./Firebase Notifications -->
+        <activity android:name=".KonsultasiActivity" />
+        <activity android:name=".Beranda"></activity>
+    </application>
+
+</manifest>

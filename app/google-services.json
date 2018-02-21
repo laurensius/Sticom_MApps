@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "57810802501",
+    "firebase_url": "https://sticom-670db.firebaseio.com",
+    "project_id": "sticom-670db",
+    "storage_bucket": "sticom-670db.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:57810802501:android:585005ed287a0afd",
+        "android_client_info": {
+          "package_name": "git.sticom"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "57810802501-vfm658fktpf0qnt1nee6d4ggas8a31ev.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "git.sticom",
+            "certificate_hash": "99921858941d4be30b0758d9400d97acd97ba680"
+          }
+        },
+        {
+          "client_id": "57810802501-e8vs0ad4fmvofqutn38lsl78uqq3888q.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD9Mvp8HTkvlZJgRX4iNmnJVixMdQMXJ3k"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "57810802501-e8vs0ad4fmvofqutn38lsl78uqq3888q.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

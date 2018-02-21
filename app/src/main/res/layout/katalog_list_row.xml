@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:background = "#fffefe"
+    android:padding="3dip" >
+
+    	<LinearLayout android:id="@+id/gbr" 
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:padding="3dip"		
+        android:layout_alignParentLeft="true"
+        android:background="#fffefe" 
+	    android:layout_marginRight="5dip">
+        
+		<ImageView     
+			android:id="@+id/gambar" 
+	        android:layout_width="45dip"
+	        android:layout_height="75dip"
+	        android:src="@mipmap/noimage"/>
+        
+	</LinearLayout>
+    
+    <TextView
+        android:id="@+id/produk"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center" 
+        android:layout_alignTop="@+id/gbr"
+        android:layout_toRightOf="@+id/gbr"
+        android:layout_marginTop="5dip"
+        android:textColor="#070707"
+        android:textSize="12sp"
+        android:textStyle="bold"/>
+    
+        <TextView
+        android:id="@+id/qty"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_below="@id/produk"
+        android:layout_alignTop="@+id/gbr"
+        android:layout_toRightOf="@+id/gbr"
+        android:layout_marginTop="40dip"
+        android:textColor="#9a0002"
+        android:textSize="12sp" />
+        
+        <TextView
+        android:id="@+id/totharga"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_below="@id/qty"
+        android:layout_alignTop="@+id/gbr"
+        android:layout_toRightOf="@+id/gbr"
+        android:layout_marginTop="60dip"
+        android:textColor="#9a0002"
+        android:textSize="12sp" />
+               
+
+    
+     <TextView
+            android:id="@+id/id_produk"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#D7DEF0"
+            android:textSize="1sp"
+            android:visibility="gone">
+        </TextView>
+
+
+</RelativeLayout>

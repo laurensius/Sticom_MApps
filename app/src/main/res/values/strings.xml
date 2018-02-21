@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Sticom</string>
+
+    <string name="action_settings">Settings</string>
+
+    <string name="cek">Cek Order</string>
+    <string name="pss">Password</string>
+    <string name="user">Email/User Name</string>
+    <string name="masuk">Masuk</string>
+    <string name="nama">Nama Lengkap</string>
+    <string name="hp">No Hp</string>
+    <string name="almt">Alamat Custemer</string>
+    <string name="moto">Anda Puas Kami Senang..!!</string>
+    <string name="cari">Cari</string>
+    <string name="member">Member List</string>
+    <string name="dftar">Daftar</string>
+    <string name="isi">Isilah semua inputan</string>
+    <string name="akses">no access? Sign Up Now</string>
+    <string name="logout">Logout</string>
+    <string name="add_to_cart">Beli</string>
+    <string name="data">Data Order</string>
+    <string name="ttd"> : </string>
+</resources>

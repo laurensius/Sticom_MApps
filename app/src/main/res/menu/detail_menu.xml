@@ -1,0 +1,17 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="scada.ujikom.dedilaundry2.DetailProduk" >
+    
+    <item
+        android:id="@+id/home"
+        android:icon="@mipmap/list"
+        android:orderInCategory="100"
+        android:title="Refresh"
+        app:showAsAction="ifRoom" />
+     
+        <item
+        android:id="@+id/exit"
+        android:title="Exit"/>
+    
+</menu>

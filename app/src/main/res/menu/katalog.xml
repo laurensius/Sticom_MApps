@@ -1,0 +1,16 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" 
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="scada.ujikom.dedilaundry2.DetailProduk">
+    
+    <item
+        android:id="@+id/cart"
+        android:icon="@mipmap/master"
+        android:title="Keranjang"
+        app:showAsAction="ifRoom" />
+    
+        <item
+        android:id="@+id/exit"
+        android:title="Exit"/>
+
+</menu>

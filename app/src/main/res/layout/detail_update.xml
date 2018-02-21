@@ -1,0 +1,103 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+			xmlns:app="http://schemas.android.com/apk/res-auto"
+			xmlns:tools="http://schemas.android.com/tools"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content" >
+			<LinearLayout
+			  android:orientation="vertical"
+			  android:layout_width="fill_parent"
+			  android:background="#fffefe"
+			  android:padding="10dp"
+			  android:layout_height="wrap_content">
+
+			   <TextView
+			  android:id="@+id/TextView01"
+			  android:layout_width="wrap_content"
+			  android:layout_height="wrap_content"
+			  android:textColor="#ff6500"
+			  android:textSize="20dip"
+			  android:layout_margin="5dip"
+			  android:text="Update Belanja"></TextView>
+
+				<TextView
+			  android:id="@+id/idproduk"
+			  android:layout_width="wrap_content"
+			  android:layout_height="wrap_content"
+			  android:textColor="#9a0002"
+			  android:textSize="12dip"
+			  android:layout_margin="5dip"
+			  android:visibility="gone"></TextView>
+
+			  <TextView android:id="@+id/produk"
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:textSize="20dip"
+						android:textStyle="bold"
+						android:paddingTop="10dip"
+						android:paddingBottom="5dip"
+						android:textColor="#333333"/>
+			  <ImageView
+						android:id="@+id/imageView"
+						android:layout_width="100dip"
+						android:layout_gravity="center"
+						android:layout_height="200dip"
+						android:src="@mipmap/noimage"/>
+
+
+			  <TextView android:id="@+id/harga"
+						android:layout_width="wrap_content"
+						android:textStyle="bold"
+						android:textSize="12dip"
+						android:paddingTop="5dip"
+						android:paddingBottom="5dip"
+						android:layout_height="wrap_content"
+						android:textColor="#999999"/>
+
+					<TextView
+						android:id="@+id/quantity"
+						android:layout_width="fill_parent"
+						android:layout_height="wrap_content"
+						android:textColor="#ff6500"
+						 android:textSize="14dip"
+						android:text="Quantity"
+						android:textStyle="bold" />
+					<!--  Name TextField -->
+
+					<EditText
+						android:id="@+id/textQty"
+						android:layout_width="match_parent"
+						android:layout_height="wrap_content"
+						android:ems="10"
+						android:inputType="number" >
+
+						<requestFocus />
+					</EditText>
+
+					<TextView android:id="@+id/TextSpinQty"
+						android:layout_width="fill_parent"
+						android:layout_height="wrap_content"
+						 android:visibility="gone"
+						/>
+
+			  <LinearLayout
+			  android:id="@+id/LinearLayout01"
+			  android:layout_width="wrap_content"
+			  android:layout_height="wrap_content"
+			  android:orientation="horizontal"
+			  android:layout_gravity="center"
+			  android:layout_margin="5dip">
+
+			  <Button
+			   android:layout_width="wrap_content"
+			   android:layout_height="wrap_content"
+			   android:id="@+id/btnDelete"
+			   android:text="Hapus"></Button>
+
+			  <Button
+			   android:id="@+id/btnUpdate"
+			   android:layout_width="wrap_content"
+			   android:layout_height="wrap_content"
+			   android:text="Update"></Button>
+			 </LinearLayout>
+			</LinearLayout>
+		</ScrollView>

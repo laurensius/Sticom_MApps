@@ -1,0 +1,66 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:orientation="vertical">
+
+
+	 <ListView
+	  android:layout_height="wrap_content"
+	  android:layout_weight="1"
+	  android:id="@+id/kat_list"
+	  android:layout_width="fill_parent"
+	  android:divider="#f5f2f2"
+	  android:dividerHeight="1dp">
+	 </ListView>
+
+	 <LinearLayout
+	  android:id="@+id/LinearLayout01"
+	  android:layout_width="wrap_content"
+	  android:layout_height="wrap_content"
+	  android:orientation="horizontal"
+	  android:layout_gravity="center"
+	  android:background="#9a0002">
+
+		<TextView
+				android:id="@+id/subtotal"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_gravity="center"
+				android:paddingTop="5dip"
+				android:paddingBottom="5dip"
+				android:textColor="#FFFFFF"
+				android:textSize="14sp" />
+
+			<TextView
+				android:id="@+id/berat"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:visibility="gone" />
+
+
+		 </LinearLayout>
+		 <LinearLayout
+		  android:id="@+id/LinearLayout02"
+		  android:layout_width="wrap_content"
+		  android:layout_height="wrap_content"
+		  android:orientation="horizontal"
+		  android:layout_gravity="center"
+		  android:layout_margin="5dip">
+
+		  <Button
+		   android:layout_width="wrap_content"
+		   android:layout_height="wrap_content"
+		   android:id="@+id/btnLanjut"
+		   android:text="Lanjut Belanja"></Button>
+
+		  <Button
+		   android:id="@+id/btnSelesai"
+		   android:layout_width="wrap_content"
+		   android:layout_height="wrap_content"
+		   android:text="CheckOut"></Button>
+		 </LinearLayout>
+
+</LinearLayout>
+

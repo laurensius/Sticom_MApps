@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="25dp"
+        android:layout_gravity="center"
+        android:src="@mipmap/logo" />
+    
+     <TextView 
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+       	android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:text="Sticom Online v 1.0"
+		android:textSize="20dp"
+		android:textStyle="bold" />
+     
+     <TextView 
+        android:layout_gravity="center"
+        android:layout_marginTop="8dp"
+       	android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:text="Cre@ted by"
+		android:textStyle="bold" />
+     
+     <TextView 
+        android:layout_gravity="center"
+       	android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:text="Ade Rosidin" />
+
+
+     <TextView 
+        android:layout_gravity="center"
+       	android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:text="2018"
+		android:textStyle="bold" />
+</LinearLayout>
